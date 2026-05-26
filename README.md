@@ -1,3 +1,4 @@
+
 # ⚡ EV Battery State of Health (SoH) Prediction
 
 ## 🚀 Live Demo
@@ -37,20 +38,19 @@ This project focuses on predicting battery health using real-world driving and c
 ---
 
 ## Project Workflow
-
-1. **Exploratory Data Analysis (EDA)**
-2. **Feature Engineering**
-3. **Model Training** (Linear Regression, Random Forest, XGBoost)
-4. **Model Evaluation** (MAE, RMSE, R² Score)
-5. **Feature Importance Analysis**
-6. **Web App Development & Deployment**
+1. Exploratory Data Analysis (EDA)
+2. Feature Engineering
+3. Model Training (Linear Regression, Random Forest, XGBoost)
+4. Model Evaluation (MAE, RMSE, R² Score)
+5. Feature Importance Analysis
+6. Web App Development & Deployment
 
 ---
 
 ## Results
 - **Best Model**: XGBoost
-- Interactive web application deployed successfully
-- Users can predict battery health in real-time by adjusting parameters
+- Interactive web application successfully deployed
+- Real-time battery health prediction based on user inputs
 
 ---
 
@@ -60,27 +60,45 @@ This project focuses on predicting battery health using real-world driving and c
 git clone https://github.com/yourusername/EV-Battery-SoH-Prediction.git
 cd EV-Battery-SoH-Prediction
 
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## Project Structure
+```
 EV-Battery-SoH-Prediction/
 ├── app.py                      # Streamlit Web Application
 ├── ev_battery_soh_model.pkl    # Trained Model
 ├── scaler.pkl                  # Scaler
 ├── requirements.txt
-├── notebook.ipynb              # Full Analysis
+├── notebook.ipynb              # Full Analysis Notebook
 └── README.md
+```
+
+---
+
+## Future Improvements
+- Implement LSTM for time-series forecasting
+- Add more real-world Indian EV conditions (Bangalore traffic, monsoon effect, etc.)
+- Integrate with IoT battery data
+
+---
+
+## Connect With Me
+**Sagar**  
+Aspiring Data Scientist | EV & AI Enthusiast  
+📍 Bengaluru, Karnataka  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/sagar-raj-1144222a7/)  
+
+**Open to Data Science / ML Internships** in Electric Vehicle Companies  
+(Ola Electric, Ather Energy, Tata Motors, Mahindra, etc.)
+
+---
 
 
-Future Improvements
+4. Click **Commit changes**
 
-Implement LSTM for time-series forecasting
-Add more real-world Indian EV conditions (e.g., Bangalore traffic, monsoon effect)
-Integrate with IoT battery data
-
-Connect With Me
-Sagar
-Aspiring Data Scientist | EV & AI Enthusiast
-📍 Bengaluru, Karnataka
-🔗 LinkedIn https://www.linkedin.com/in/sagar-raj-1144222a7/
-Open to Data Science / ML Internships in Electric Vehicle Companies (Ola Electric, Ather Energy, Tata Motors, Mahindra, etc.)
-
-pip install -r requirements.txt
-streamlit run app.py
+Would you like me to also create a **LinkedIn post** for this project now?
